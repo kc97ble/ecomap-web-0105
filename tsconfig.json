@@ -8,5 +8,5 @@
     "target": "ESNext",
     "sourceMap": true
   },
-  "include": ["src"]
+  "include": ["src", "declarations.d.ts"]
 }
