@@ -37,6 +37,29 @@ export default function SectionIntro() {
               style={{ height: "300px" }}
             />
           </Placeholder>
+          <Row className="mt-4">
+            <Col>
+              <h3>Kết nối</h3>
+              <p>
+                Trang bị đầy đủ bộ công cụ kiến thức cho thanh niên để có thể
+                vận hành dự án xã hội.
+              </p>
+            </Col>
+            <Col>
+              <h3>Kiến thức</h3>
+              <p>
+                Trang bị đầy đủ bộ công cụ kiến thức cho thanh niên để có thể
+                vận hành dự án xã hội.
+              </p>
+            </Col>
+            <Col>
+              <h3>Động lực</h3>
+              <p>
+                Lan tỏa thông điệp tích cực qua các câu chuyện/ mô hình thực tế
+                trên cả nước
+              </p>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
