@@ -1,8 +1,8 @@
 import * as React from "react";
 import TheNavbar from "../../components/TheNavbar";
+import TheBanner from "./components/SectionBanner";
 import SectionIntro from "./components/SectionIntro";
 import SectionMainActivity from "./components/SectionMainActivity";
-import TheBanner from "./components/TheBanner";
 
 export function PageHome() {
   return (
