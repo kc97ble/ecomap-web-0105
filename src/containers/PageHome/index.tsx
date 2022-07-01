@@ -3,6 +3,7 @@ import TheNavbar from "../../components/TheNavbar";
 import TheBanner from "./components/SectionBanner";
 import SectionIntro from "./components/SectionIntro";
 import SectionMainActivity from "./components/SectionMainActivity";
+import SectionTargetGroups from "./components/SectionTargetGroups";
 
 export function PageHome() {
   return (
@@ -11,6 +12,7 @@ export function PageHome() {
       <TheBanner />
       <SectionIntro />
       <SectionMainActivity />
+      <SectionTargetGroups />
     </div>
   );
 }
