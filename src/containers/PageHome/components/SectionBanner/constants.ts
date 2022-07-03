@@ -1,32 +1,29 @@
 import { IBrand } from "./types";
 
-import LOGO_IDY from "./assets/brands/idy.png";
-
-import {
-  default as LOGO_BAMBOO,
-  default as LOGO_YBOX,
-} from "./assets/brands/ybox.png";
+import LOGO_CVBLUE from "./assets/brands/cvblue.png";
+import LOGO_USUSEMBASSY from "./assets/brands/usembassy.png";
+import LOGO_YSEALI from "./assets/brands/yseali.png";
 
 export enum BRAND_LOGO {
-  YBOX = LOGO_YBOX,
-  IDY = LOGO_IDY,
-  BAMBOO = LOGO_BAMBOO,
+  US_USEMBASSY = LOGO_USUSEMBASSY,
+  CV_BLUE = LOGO_CVBLUE,
+  YSEALI = LOGO_YSEALI,
 }
 
 export const listBrands: IBrand[] = [
   {
-    name: "YBOX.VN",
-    url: "ybox.vn",
-    logo: BRAND_LOGO.YBOX,
+    name: "US Usembassy",
+    url: "#us_usembassy",
+    logo: BRAND_LOGO.US_USEMBASSY,
   },
   {
-    name: "IDY",
-    url: "idy.vn",
-    logo: BRAND_LOGO.IDY,
+    name: "CVBLUE",
+    url: "#cv_blue",
+    logo: BRAND_LOGO.CV_BLUE,
   },
   {
-    name: "bamboo.VN",
-    url: "bamvoo.vn",
-    logo: BRAND_LOGO.BAMBOO,
+    name: "YSEALI",
+    url: "#yseali",
+    logo: BRAND_LOGO.YSEALI,
   },
 ];
