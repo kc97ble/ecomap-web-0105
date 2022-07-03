@@ -1,6 +1,7 @@
 import { IBrand } from "./types";
 
 import LOGO_IDY from "./assets/brands/idy.png";
+
 import {
   default as LOGO_BAMBOO,
   default as LOGO_YBOX,

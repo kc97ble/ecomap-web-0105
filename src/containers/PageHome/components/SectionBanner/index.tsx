@@ -6,11 +6,11 @@ import Banner from "./components/Banner";
 export default function TheBanner() {
   return (
     <Container className="py-5">
-      <Row>
-        <Col>
+      <Row className="gy-5">
+        <Col xl={6}>
           <About />
         </Col>
-        <Col>
+        <Col xl={6}>
           <Banner />
         </Col>
       </Row>

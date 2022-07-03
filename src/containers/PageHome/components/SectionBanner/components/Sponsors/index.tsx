@@ -25,7 +25,7 @@ const Sponsors = (props: BrandsProps) => {
         <h4>Đơn vị tài trợ</h4>
         <span></span>
       </div>
-      <Row className="mt-2">
+      <Row className="mt-1 gx-3 gy-3">
         {data.map((brand: any, idx: number) => (
           <Col key={idx} xl={4}>
             <Brand {...brand} />
