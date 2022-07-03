@@ -20,7 +20,7 @@ export default function SectionTeamIntro2() {
             <h3 className="fw-bold my-2 text-center">Đội ngũ cố vấn</h3>
           </Col>
         </Row>
-        <Row>
+        <Row className="align-items-start">
           <Col className="d-flex flex-column justify-content-center align-items-center">
             <Image
               src={imgNguyenDucVinh}
@@ -30,10 +30,9 @@ export default function SectionTeamIntro2() {
               rounded={true}
               style={{ objectFit: "cover" }}
             />
-            <h6 className="text-center mt-2">Nguyễn Đức Vinh</h6>
-            <p className="text-center" style={{ fontWeight: "300" }}>
-              Cố vấn chuyên môn
-            </p>
+            <h6 className="text-center mt-2">ThS. Nguyễn Đức Vinh</h6>
+            <div className="text-center fw-light">Cố vấn chuyên môn</div>
+            <div className="text-center fw-light">Giám đốc STG</div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center">
             <Image
@@ -44,10 +43,9 @@ export default function SectionTeamIntro2() {
               rounded={true}
               style={{ objectFit: "cover" }}
             />
-            <h6 className="text-center mt-2">Nguyễn Hồng Long</h6>
-            <p className="text-center" style={{ fontWeight: "300" }}>
-              Cố vấn chuyên môn
-            </p>
+            <h6 className="text-center mt-2">ThS. Nguyễn Hồng Long</h6>
+            <div className="text-center fw-light">Cố vấn chuyên môn</div>
+            <div className="text-center fw-light">Giám đốc CCS</div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center">
             <Image
@@ -58,10 +56,11 @@ export default function SectionTeamIntro2() {
               rounded={true}
               style={{ objectFit: "cover" }}
             />
-            <h6 className="text-center mt-2">Trần Lương Sơn</h6>
-            <p className="text-center" style={{ fontWeight: "300" }}>
-              Cố vấn chuyên môn
-            </p>
+            <h6 className="text-center mt-2">TS. Trần Lương Sơn</h6>
+            <div className="text-center fw-light">Cố vấn chuyên môn</div>
+            <div className="text-center fw-light">
+              Founder VietSoftware International
+            </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center">
             <Image
@@ -72,10 +71,8 @@ export default function SectionTeamIntro2() {
               rounded={true}
               style={{ objectFit: "cover" }}
             />
-            <h6 className="text-center mt-2">Hiếu PC</h6>
-            <p className="text-center" style={{ fontWeight: "300" }}>
-              Cố vấn công nghệ
-            </p>
+            <h6 className="text-center mt-2">Ngô Minh Hiếu</h6>
+            <div className="text-center fw-light">Cố vấn công nghệ</div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center">
             <Image
@@ -87,7 +84,7 @@ export default function SectionTeamIntro2() {
               style={{ objectFit: "cover" }}
             />
             <h6 className="text-center mt-2">Nguyễn Tiến Trung Kiên</h6>
-            <p className="text-center fw-light">Cố vấn công nghệ</p>
+            <div className="text-center fw-light">Cố vấn công nghệ</div>
           </Col>
         </Row>
       </Container>

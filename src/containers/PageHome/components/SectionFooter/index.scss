@@ -1,0 +1,7 @@
+.underline-on-hover-only {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
