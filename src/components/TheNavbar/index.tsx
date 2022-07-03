@@ -1,11 +1,14 @@
 import * as React from "react";
-import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Image, Nav, Navbar } from "react-bootstrap";
+import imgLogoEcomap04 from "./assets/imgLogoEcomap04.png";
 
 export default function TheNavbar() {
   return (
     <Navbar bg="$white" variant="light">
       <Container>
-        <Navbar.Brand href="#home">Ecomap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <Image src={imgLogoEcomap04} width="260px" />
+        </Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">Trang chủ</Nav.Link>
           <Nav.Link href="#map">Bản đồ</Nav.Link>
