@@ -1,9 +1,14 @@
 import * as React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 
 const Banner = () => {
   return (
-    <Card bg="primary" style={{ height: "500px", borderRadius: "35px" }}></Card>
+    <Container>
+      <Card
+        bg="primary"
+        style={{ height: "500px", borderRadius: "35px" }}
+      ></Card>
+    </Container>
   );
 };
 

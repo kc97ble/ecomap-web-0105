@@ -5,15 +5,17 @@ import Banner from "./components/Banner";
 
 export default function TheBanner() {
   return (
-    <Container className="py-5">
-      <Row>
-        <Col>
-          <About />
-        </Col>
-        <Col>
-          <Banner />
-        </Col>
-      </Row>
+    <Container fluid>
+      <Container fluid="sm">
+        <Row className="gy-5">
+          <Col xl={6}>
+            <About />
+          </Col>
+          <Col xl={6}>
+            <Banner />
+          </Col>
+        </Row>
+      </Container>
     </Container>
   );
 }
