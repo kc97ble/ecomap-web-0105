@@ -1,6 +1,7 @@
 import * as React from "react";
 import TheNavbar from "../../components/TheNavbar";
 import TheBanner from "./components/SectionBanner";
+import SectionFooter from "./components/SectionFooter";
 import SectionIntro from "./components/SectionIntro";
 import SectionMainActivity from "./components/SectionMainActivity";
 import SectionSubscription from "./components/SectionSubscription";
@@ -19,6 +20,7 @@ export function PageHome() {
       <SectionTeamIntro1 />
       <SectionTeamIntro2 />
       <SectionSubscription />
+      <SectionFooter />
     </div>
   );
 }
