@@ -19,7 +19,9 @@ export default function SectionIntro() {
         <Col xs={12} xl={4}>
           <Container>
             <h1>Tìm hiểu về Ecomap!</h1>
-            <h4 className="fw-light">Nền tảng dành riêng cho các dự án môi trường của thanh niên</h4>
+            <h4 className="fw-light">
+              Nền tảng dành riêng cho các dự án môi trường của thanh niên
+            </h4>
             <Button
               className="my-4 w-100 py-3 fw-bold fs-5"
               style={{
