@@ -16,15 +16,13 @@ export default function SectionTargetGroups() {
       <Container className="text-white" fluid="sm">
         <Row>
           <Col>
-            <h3 className="fw-bold my-2">
-              Các hoạt động dành cho các nhóm đối tượng
-            </h3>
+            <h3 className="fw-bold my-3">Các nhóm đối tượng của dự án</h3>
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={12} sm={6} lg={3}>
             <Image
-              className="my-2"
+              className="my-2 d-none d-sm-block"
               src={imgTargetGroup1}
               style={{ maxWidth: "80px" }}
             />
@@ -34,9 +32,9 @@ export default function SectionTargetGroups() {
               cộng đồng về lĩnh vực môi trường trên toàn quốc
             </p>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} lg={3}>
             <Image
-              className="my-2"
+              className="my-2 d-none d-sm-block"
               src={imgTargetGroup2}
               style={{ maxWidth: "80px" }}
             />
@@ -46,9 +44,9 @@ export default function SectionTargetGroups() {
               trường và tình nguyện
             </p>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} lg={3}>
             <Image
-              className="my-2"
+              className="my-2 d-none d-sm-block"
               src={imgTargetGroup3}
               style={{ maxWidth: "80px" }}
             />
@@ -58,9 +56,9 @@ export default function SectionTargetGroups() {
               hoạt động về lĩnh vực môi trường
             </p>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} lg={3}>
             <Image
-              className="my-2"
+              className="my-2 d-none d-sm-block"
               src={imgTargetGroup4}
               style={{ maxWidth: "80px" }}
             />
