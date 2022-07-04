@@ -69,12 +69,12 @@ export default function SectionIntro() {
           <Col xs={12} xl={8}>
             <Container>
               <Placeholder as="div" animation="glow">
-                <Placeholder
-                  className="w-100"
-                  xs={6}
-                  size="lg"
-                  style={{ height: "300px" }}
-                />
+                <iframe
+                  src="https://drive.google.com/file/d/1QXhBForFecUmznaRDxc1D5L1xyVbJ2Ct/preview"
+                  width="100%"
+                  height="450"
+                  allow="autoplay"
+                ></iframe>
               </Placeholder>
               <Row className="mt-4">
                 <Col xs={12} sm={4}>
