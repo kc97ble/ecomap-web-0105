@@ -8,13 +8,13 @@ import imgThanhThuy from "./assets/imgThanhThuy.jpg";
 export default function SectionTeamIntro1() {
   return (
     <Container
-      className="py-5"
+      className="pt-5 pb-2"
       fluid={true}
       style={{ backgroundColor: "#EBF8FF" }}
     >
       <Container>
         <Row className="my-2">
-          <Col className="d-flex flex-column justify-content-center align-items-center">
+          <Col className="my-2 d-flex flex-column justify-content-center align-items-center">
             <h3 className="fw-bold my-2 text-center">Đội ngũ nhân sự</h3>
             <p className="text-center fw-light" style={{ maxWidth: "600px" }}>
               Dự án được xây dựng bởi nhiều người trẻ nhiệt huyết với nhiều năm
@@ -23,7 +23,7 @@ export default function SectionTeamIntro1() {
           </Col>
         </Row>
         <Row>
-          <Col className="d-flex flex-column justify-content-center align-items-center">
+          <Col className="my-2 d-flex flex-column justify-content-center align-items-center">
             <Image
               src={imgPhuongTrang}
               width="180px"
@@ -37,7 +37,7 @@ export default function SectionTeamIntro1() {
               Điều phối dự án
             </p>
           </Col>
-          <Col className="d-flex flex-column justify-content-center align-items-center">
+          <Col className="my-2 d-flex flex-column justify-content-center align-items-center">
             <Image
               src={imgMinhTam}
               width="180px"
@@ -49,7 +49,7 @@ export default function SectionTeamIntro1() {
             <h6 className="text-center mt-2">Lê Minh Tâm</h6>
             <p className="text-center fw-light">Vận hành công nghệ</p>
           </Col>
-          <Col className="d-flex flex-column justify-content-center align-items-center">
+          <Col className="my-2 d-flex flex-column justify-content-center align-items-center">
             <Image
               src={imgThanhThuy}
               width="180px"
@@ -58,7 +58,7 @@ export default function SectionTeamIntro1() {
               rounded={true}
               style={{ objectFit: "cover" }}
             />
-            <h6 className="text-center mt-2">Thanh Thuý</h6>
+            <h6 className="text-center mt-2">Nguyễn Thanh Thủy</h6>
             <p className="text-center" style={{ fontWeight: "300" }}>
               Vận hành truyền thông
             </p>
