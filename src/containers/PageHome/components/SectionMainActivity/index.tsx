@@ -19,7 +19,7 @@ export default function SectionMainActivity() {
             <Image src={imgBullet1} style={{ maxWidth: "80px" }} />
           </Col>
           <Col>
-            <h4>Ecomap website</h4>
+            <h4>Ecomap Website</h4>
             <p
               className="bg-light p-4 rounded-3 text-black"
               style={{ boxShadow: "none", ...{ "--bs-text-opacity": 0.75 } }}
@@ -34,7 +34,7 @@ export default function SectionMainActivity() {
             <Image src={imgBullet2} style={{ maxWidth: "80px" }} />
           </Col>
           <Col>
-            <h4>Ecomap training</h4>
+            <h4>Ecomap Training</h4>
             <p
               className="bg-light p-4 rounded-3 text-black"
               style={{ boxShadow: "none", ...{ "--bs-text-opacity": 0.75 } }}
@@ -51,7 +51,7 @@ export default function SectionMainActivity() {
             <Image src={imgBullet3} style={{ maxWidth: "80px" }} />
           </Col>
           <Col>
-            <h4>Ecomap stories</h4>
+            <h4>Ecomap Stories</h4>
             <p
               className="bg-light p-4 rounded-3 text-black"
               style={{ boxShadow: "none", ...{ "--bs-text-opacity": 0.75 } }}
