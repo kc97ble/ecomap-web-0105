@@ -14,33 +14,27 @@ export default function SectionFooter() {
           </Col>
           <Col>
             <div className="my-4 pb-5 border-bottom border-white">
-              <a href="#" className={"me-4 text-white underline-on-hover-only"}>
+              <a href="#" className="me-4 text-white underline-on-hover-only">
                 Trang chủ
               </a>
-              <a href="#" className={"me-4 text-white underline-on-hover-only"}>
+              <a href="#" className="me-4 text-white underline-on-hover-only">
                 Bản đồ
               </a>
-              <a href="#" className={"me-4 text-white underline-on-hover-only"}>
+              <a href="#" className="me-4 text-white underline-on-hover-only">
                 Đào tạo
               </a>
-              <a href="#" className={"me-4 text-white underline-on-hover-only"}>
-                Mô hình
-              </a>
-              <a href="#" className={"me-4 text-white underline-on-hover-only"}>
-                Cơ hội
-              </a>
-              <a href="#" className={"me-4 text-white underline-on-hover-only"}>
+              <a href="#" className="me-4 text-white underline-on-hover-only">
                 Tin tức
               </a>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between flex-wrap">
               <a
                 href="mailto:ecomap.vn@gmail.com"
                 className="text-white underline-on-hover-only fw-light"
               >
                 ecomap.vn@gmail.com
               </a>
-              <span>© 2022 Ecomap. All right reserved</span>
+              <span>© 2022 Ecomap. All rights reserved.</span>
             </div>
           </Col>
         </Row>
