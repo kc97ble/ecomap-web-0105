@@ -10,7 +10,7 @@ const Brand = (props: IBrand) => {
         borderRadius: "13px",
       }}
     >
-      <Card.Body>
+      <Card.Body className="py-0 p-sm-3">
         <Image
           width="100%"
           height="100px"
@@ -33,9 +33,9 @@ const Sponsors = (props: BrandsProps) => {
         <h4>Đơn vị tài trợ</h4>
         <span></span>
       </div>
-      <Row className="mt-1 gx-3 gy-3">
+      <Row className="mt-1 gx-1 gy-1 gx-md-3 gy-md-3">
         {data.map((brand: any, idx: number) => (
-          <Col key={idx} xs={6} sm={4}>
+          <Col key={idx} xs={4}>
             <Brand {...brand} />
           </Col>
         ))}

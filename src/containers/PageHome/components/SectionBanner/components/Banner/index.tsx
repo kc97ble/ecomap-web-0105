@@ -1,19 +1,20 @@
 import * as React from "react";
-import { Card, Container } from "react-bootstrap";
-import imgBanner from "../../assets/banner.jpg";
+import { Container, Image } from "react-bootstrap";
+import imgBanner from "../../assets/banner.png";
 
 const Banner = () => {
   return (
     <Container>
-      <Card
-        bg="primary"
+      <Image
+        src={imgBanner}
+        width="100%"
+        height="500px"
         style={{
-          height: "500px",
           borderRadius: "35px",
-          background: `url(${imgBanner})`,
-          backgroundSize: "100% 100%",
+          objectFit: "cover",
         }}
-      ></Card>
+        className="d-none d-xl-block"
+      />
     </Container>
   );
 };
