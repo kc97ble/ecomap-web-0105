@@ -17,7 +17,7 @@ export default function SectionSubscription() {
   return (
     <Container className="my-5">
       <Row className="d-flex justify-content-center">
-        <Col md={6}>
+        <Col style={{ maxWidth: "600px" }}>
           <Form
             className="m-4 p-4 d-flex flex-column justify-content-center align-items-center border rounded"
             onSubmit={(event) => event.preventDefault()}
