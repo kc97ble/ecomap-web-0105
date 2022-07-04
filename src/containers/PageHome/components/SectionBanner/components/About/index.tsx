@@ -10,10 +10,9 @@ const About = () => {
         <div className="flex-grow-1">
           <div className="d-flex flex-column justify-content-center h-100">
             <h1 className="text-primary fw-bolder">ECOMAP</h1>
-            <h4 className="fw-light">
-              Cổng kết nối các dự án tạo tác động xã hội về lĩnh vực môi trường
-              của của thanh niên Việt Nam
-            </h4>
+            <h5 className="fw-light">
+              Mạng lưới sáng kiến môi trường cho người Việt trẻ
+            </h5>
           </div>
         </div>
         <Sponsors data={listBrands} />
