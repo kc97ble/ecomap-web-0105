@@ -4,6 +4,7 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 import imgPhuongTrang from "./assets/imgPhuongTrang.jpg";
 import imgMinhTam from "./assets/imgMinhTam.jpg";
 import imgThanhThuy from "./assets/imgThanhThuy.jpg";
+import imgDoThanhDat from "./assets/imgDoThanhDat.jpg";
 
 export default function SectionTeamIntro1() {
   return (
@@ -61,6 +62,20 @@ export default function SectionTeamIntro1() {
             <h6 className="text-center mt-2">Nguyễn Thanh Thủy</h6>
             <p className="text-center" style={{ fontWeight: "300" }}>
               Vận hành truyền thông
+            </p>
+          </Col>
+          <Col className="my-2 d-flex flex-column justify-content-center align-items-center">
+            <Image
+              src={imgDoThanhDat}
+              width="180px"
+              height="180px"
+              roundedCircle={true}
+              rounded={true}
+              style={{ objectFit: "cover" }}
+            />
+            <h6 className="text-center mt-2">Đỗ Thành Đạt</h6>
+            <p className="text-center" style={{ fontWeight: "300" }}>
+              Đồng sáng lập dự án
             </p>
           </Col>
         </Row>
