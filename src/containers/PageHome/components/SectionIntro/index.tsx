@@ -21,7 +21,7 @@ export default function SectionIntro() {
             <Container>
               <h1>Tìm hiểu về Ecomap!</h1>
               <h4 className="fw-light">
-                Nền tảng dành riêng cho các dự án môi trường của thanh niên
+                Kênh thông tin dành cho các sáng kiến môi trường của thanh niên
               </h4>
               <Button
                 className="my-4 w-100 py-3 fw-bold fs-5"
@@ -52,9 +52,8 @@ export default function SectionIntro() {
                     <Image src={imgLogoEcomap} width={127} height={45} />
                   </div>
                   <p className="fs-5">
-                    “Ecomap ra đời với hy vọng rằng sẽ không có dự án nào bị
-                    dừng lại chỉ bởi nó được sinh ra ở một nơi mà không ai biết
-                    đến. ”
+                    “Ecomap tin rằng người trẻ yêu môi trường xứng đáng nhận
+                    được sự hỗ trợ và thúc đẩy để phát triển một cách bài bản”
                   </p>
                   <div className="d-flex">
                     <Image src={imgFounder} width={60} height={60} />
@@ -70,12 +69,12 @@ export default function SectionIntro() {
           <Col xs={12} xl={8}>
             <Container>
               <Placeholder as="div" animation="glow">
-                <Placeholder
-                  className="w-100"
-                  xs={6}
-                  size="lg"
-                  style={{ height: "300px" }}
-                />
+                <iframe
+                  src="https://drive.google.com/file/d/1QXhBForFecUmznaRDxc1D5L1xyVbJ2Ct/preview"
+                  width="100%"
+                  height="450"
+                  allow="autoplay"
+                ></iframe>
               </Placeholder>
               <Row className="mt-4">
                 <Col xs={12} sm={4}>
