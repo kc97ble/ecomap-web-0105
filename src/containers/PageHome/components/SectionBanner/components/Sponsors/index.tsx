@@ -11,7 +11,15 @@ const Brand = (props: IBrand) => {
       }}
     >
       <Card.Body>
-        <Image width="100%" height="100px" src={logo} title={name} />
+        <Image
+          width="100%"
+          height="100px"
+          src={logo}
+          title={name}
+          style={{
+            objectFit: "contain",
+          }}
+        />
       </Card.Body>
     </Card>
   );
