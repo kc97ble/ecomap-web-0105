@@ -9,7 +9,14 @@ const About = () => {
       <div className="d-flex flex-column h-100">
         <div className="flex-grow-1">
           <div className="d-flex flex-column justify-content-center h-100">
-            <h1 className="text-primary fw-bolder">ECOMAP</h1>
+            <h1
+              className="fw-bolder"
+              style={{
+                color: "#1299b2",
+              }}
+            >
+              ECOMAP
+            </h1>
             <h5 className="fw-light">
               Mạng lưới sáng kiến môi trường cho người Việt trẻ
             </h5>
